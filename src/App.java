@@ -36,7 +36,7 @@ public class App {
             System.out.println("ZERO");
         }
 
-        System.out.println("Give a second whole number total");
+        System.out.println("Give a second whole number total:");
         int total = Integer.valueOf(scanner.nextLine());
         if (total > 0) {
              double result1 = (double) x / total;
