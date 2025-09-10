@@ -26,14 +26,14 @@ public class App {
     
         System.out.println("Give a whole number x:");
         int x = Integer.valueOf(scanner.nextLine());
-        if (x % 2 == 0) {
-            System.out.println("The number is even");
+        if (x % 2 == 0 && x != 0) {
+            System.out.println("The number is EVEN");
         }
         else if (x % 2 == 1) {
-            System.out.println("The number is odd");
+            System.out.println("The number is ODD");
         }
         else {
-            System.out.println("Number is 0");
+            System.out.println("ZERO");
         }
 
         System.out.println("Give a second whole number total");
